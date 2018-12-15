@@ -1,0 +1,13 @@
+---
+layout: single
+title:  "Currency for a \"Schule als Staat\" Project"
+date:   2015-07-05 18:00:00 +0100
+categories: miscellaneous
+---
+
+Last week, [my school](https://hoegy.de/) had a project called "Schule als EU" (school as EU) during which the whole school is organized just like the European Union, with autonomous jurisdiction, politics and economy.
+Some friends of mine and me coded software that was used to manage the whole project.
+On top of that, this software implemented a digital currency that was successfully used by all students for the duration of the project.
+
+You can find more information about the project's "central bank" at [centralbank.eu](https://centralbank.eu/).
+The software including documentation is published [on GitHub](https://github.com/jeija/schulealsstaat).

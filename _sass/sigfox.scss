@@ -1,0 +1,32 @@
+#sigfox-publish {
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	margin: 0 auto;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#sigfox-publish .sigfox-publishitem {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid #c0c0c0;
+	border-radius: 4px;
+	width: 15%;
+	min-width: 200px;
+	justify-content: flex-end;
+	margin: 10px 10px;
+	padding: 8px;
+}
+
+#sigfox-publish .sigfox-publishitem .sigfox-publishname {
+	font-size: 1em;
+	height: 4em;
+	text-align: center;
+}
+
+#sigfox-publish .sigfox-publishitem img {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}

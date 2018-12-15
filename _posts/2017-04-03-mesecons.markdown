@@ -1,0 +1,18 @@
+---
+layout: single
+title:  "Transferring Mesecons to minetest-mods"
+date:   2017-04-03 18:00:00 +0100
+categories: minetest
+---
+
+On Christmas Eve 2011, more than 5 years ago, I published the first version of my "Mesecons" mod for the Minecraft clone ["Minetest"](https://www.minetest.net/).
+Mesecons adds digital electronics to the game, very similar to what redstone does for Minecraft.
+Ever since, Mesecons has been a personal passion of mine and I have spent countless hours improving player experience and eradicating bugs.
+
+![(mesecons.net](/assets/images/mesecons-net.png)
+
+Unfortunately, due to my time-consuming University studies and other side projects, I just do not have the time anymore to perform my duties as a maintainer for the Mesecons GitHub repository.
+I have thus decided to transfer ownership of the project to the amazing [Minetest-Mods](http://minetest-mods.github.io/) organization that will from now on take care of one of Minetest's most popular mods.
+
+Even though it feels difficult to say farewell to my most longstanding software project, I believe that this will bring advantages for both players and developers in the long run.
+And if Mesecons ever needs me, I will stick around and monitor its continued development closely ;)

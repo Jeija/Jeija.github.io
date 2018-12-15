@@ -1,0 +1,12 @@
+---
+layout: single
+title:  "od2samba4: Migrate from Apple Open Directory to Samba4 Active Directory"
+date:   2016-12-16 18:00:00 +0100
+categories: miscellaneous
+---
+
+I work as an Administrator at [one of my University's computer pools](https://www.physcip.uni-stuttgart.de) with almost 1000 registered students where we employ a directory server for user management.
+We recently had to migrate from Apple's proprietary Open Directory service to the Samba4's Active Directory-compatible Domain Controller without forcing users to register again or re-enter their passwords.
+
+Since there don't seem to exist any turnkey solutions for this kind of scenario, I wrote some scripts called `od2samba4` that automate the migration of users, password hashes and groups and enable the concurrent operation of Samba4 AD DC and Apple Open Directory during a transition period.
+I have published these scripts together with extensive documentation [on GitHub](https://github.com/physcip/od2samba4).

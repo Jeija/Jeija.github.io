@@ -1,0 +1,17 @@
+---
+layout: single
+title:  "ESP32 Range Testing"
+date:   2017-04-08 18:00:00 +0100
+categories: wireless ESP32
+---
+
+So I recently learned about the [Friis equation](https://en.wikipedia.org/wiki/Friis_transmission_equation) and [link budget calculation](https://en.wikipedia.org/wiki/Link_budget).
+When I tried to figure out what the theoretical maximum range of a 20dBm WiFi transmitter was, I quickly noticed that, assuming free space propagation, we should be able to transmit over a distance of several hundred meters.
+Since my experiments transmitting data across the Neckar valley (a distance of 1km) just using an omnidirectional dipole antenna were successful, I wanted to push my little ESP32 transmitter to the max and got a directional antenna.
+By reverse engineering and modifying the ESP32's WiFi stack a bit, I managed to get it to transmit arbitrary WiFi frames which helped me accomplish an astonishing WiFi range of 10km!
+
+<div style="margin-bottom: 1em">
+	<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/yCLb2eItDyE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+The firmware component used to transmit arbitrary 802.11 frames can be found [on GitHub](https://github.com/Jeija/esp32free80211).

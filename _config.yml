@@ -1,0 +1,71 @@
+title: Jeija's Blog
+email: jeija@jeija.net
+description: >-
+  I publish whatever I think has even the slightest chance of being
+  useful to someone else at some point in the future, usually with a focus on
+  Radio Technology, Electrical Engineering, Open Source, Maths and Network Security.
+baseurl: ""
+url: "https://jeija.net"
+github_username:  Jeija
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-watch
+  - jekyll-archives
+  - jekyll-include-cache
+
+# GitHub pages settings
+repository: Jeija/Jeija.github.io
+
+# Theme settings
+remote_theme: "mmistakes/minimal-mistakes@4.14.1"
+breadcrumbs: true
+paginate: 5
+paginate_path: /page:num/
+permalink: /:categories/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+
+author:
+  name: "Florian Euchner"
+  avatar: "/assets/images/avatar.png"
+  bio: "EE Student @ University of Stuttgart"
+  location: "Nürtingen, Germany"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/Jeija"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://youtube.com/Jeija"
+    - label: "Hacker News"
+      icon: "fab fa-fw fa-hacker-news-square"
+      url: "https://news.ycombinator.com/user?id=Jeija"
+    - label: "jeija@jeija.net"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:jeija@jeija.net"
+    - label: "Keybase"
+      icon: "fab fa-fw fa-keybase"
+      url: "https://keybase.io/Jeija"
+    - label: "E68B 959D 5578 1895"
+      icon: "fas fa-fw fa-key"
+      url: ""
+
+category_archive:
+  type: jekyll-archives
+  path: /categories/
+
+jekyll-archives:
+  enabled:
+    - categories
+  layouts:
+    category: archive-taxonomy
+  permalinks:
+    category: /categories/:name/

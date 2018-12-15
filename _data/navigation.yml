@@ -1,0 +1,7 @@
+main:
+  - title: "Sigfox"
+    url: /sigfox/
+  - title: "Projects"
+    url: /projects/
+  - title: "About"
+    url: /about/

@@ -1,0 +1,44 @@
+---
+---
+
+@import "minimal-mistakes/skins/air";
+@import "{{ site.theme }}";
+@import "sigfox";
+
+.social-icons .svg-inline--fa {
+	color: inherit;
+}
+
+/* Full-width pages */
+
+.fullwidth .sidebar__right {
+  margin-bottom: 1em;
+
+  @include breakpoint($large) {
+    position: initial;
+    top: initial;
+    right: initial;
+    width: initial;
+    margin-right: initial;
+    padding-left: initial;
+    z-index: initial;
+
+    &.sticky {
+      float: none;
+    }
+  }
+
+  @include breakpoint($x-large) {
+    width: initial;
+    margin-right: initial;
+  }
+}
+
+.fullwidth .page {
+	width: 100%;
+	padding-right: 0;
+}
+
+.fullwidth .breadcrumbs {
+	display: none;
+}
