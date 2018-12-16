@@ -13,7 +13,6 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-watch
-  - jekyll-archives
   - jekyll-include-cache
 
 # GitHub pages settings
@@ -21,7 +20,6 @@ repository: Jeija/Jeija.github.io
 
 # Theme settings
 remote_theme: "mmistakes/minimal-mistakes@4.14.1"
-breadcrumbs: true
 paginate: 5
 paginate_path: /page:num/
 permalink: /:categories/:title/
@@ -57,15 +55,3 @@ author:
     - label: "E68B 959D 5578 1895"
       icon: "fas fa-fw fa-key"
       url: ""
-
-category_archive:
-  type: jekyll-archives
-  path: /categories/
-
-jekyll-archives:
-  enabled:
-    - categories
-  layouts:
-    category: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
