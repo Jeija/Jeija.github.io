@@ -12,26 +12,26 @@
 /* Full-width pages */
 
 .fullwidth .sidebar__right {
-  margin-bottom: 1em;
+	margin-bottom: 1em;
 
-  @include breakpoint($large) {
-    position: initial;
-    top: initial;
-    right: initial;
-    width: initial;
-    margin-right: initial;
-    padding-left: initial;
-    z-index: initial;
+	@include breakpoint($large) {
+		position: initial;
+		top: initial;
+		right: initial;
+		width: initial;
+		margin-right: initial;
+		padding-left: initial;
+		z-index: initial;
 
-    &.sticky {
-      float: none;
-    }
-  }
+		&.sticky {
+			float: none;
+		}
+	}
 
-  @include breakpoint($x-large) {
-    width: initial;
-    margin-right: initial;
-  }
+	@include breakpoint($x-large) {
+		width: initial;
+		margin-right: initial;
+	}
 }
 
 .fullwidth .page {
