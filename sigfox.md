@@ -10,7 +10,7 @@ categories: blog
 <img src="/assets/images/35c3.svg" id="sigfox_35c3logo">
 
 <div style="margin-bottom: 20px; max-width: 85%; float: left;">
-	This page contains supplementary material for <a href="https://fahrplan.events.ccc.de/congress/2018/Fahrplan/events/9491.html">my presentation at 35C3</a>.
+	This page contains supplementary material for <a href="https://media.ccc.de/v/35c3-9491-hunting_the_sigfox_wireless_iot_network_security">my presentation at 35C3</a>.
 	If you have any questions, open an issue on the respective GitHub repository or contact me at <a href="mailto:jeija@jeija.net">jeija@jeija.net</a>.
 </div>
 
