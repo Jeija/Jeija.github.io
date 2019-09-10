@@ -1,0 +1,12 @@
+---
+layout: single
+title:  "35C3 - Hunting the Sigfox: Wireless IoT Network Security"
+date:   2018-12-27 18:00:00 +0100
+categories: wireless sigfox
+---
+
+As part of my Bachelor's thesis, I have been reverse engineering the [Sigfox](https://www.sigfox.com) radio protocol for the last few months.
+I have published [the reverse-engineered specifications](/sigfox) as well as reference implementations of an open-source Sigfox stack.
+Today, I presented a summary of my results at the 35th Chaos Communication Congress in Leipzig:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-l3cw_S-KiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -1,4 +1,4 @@
-title: Jeija's Blog
+title: jeija.net
 email: jeija@jeija.net
 description: >-
   I publish whatever I think has even the slightest chance of being
@@ -34,7 +34,7 @@ defaults:
 author:
   name: "Florian Euchner"
   avatar: "/assets/images/avatar.png"
-  bio: "EE Student @ University of Stuttgart"
+  bio: "Student at University of Stuttgart"
   location: "Nürtingen, Germany"
   links:
     - label: "GitHub"
@@ -52,6 +52,9 @@ author:
     - label: "Keybase"
       icon: "fab fa-fw fa-keybase"
       url: "https://keybase.io/Jeija"
+    - label: "DO7JE"
+      icon: "fas fa-fw fa-broadcast-tower"
+      url: ""
     - label: "E68B 959D 5578 1895"
       icon: "fas fa-fw fa-key"
       url: ""
